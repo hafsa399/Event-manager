@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-image: url("backgroundimg.jpg");
+  background-size: cover; /* Scales image to cover area */
+  background-position: center; /* Centers the image */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 70px;
+
+  background: linear-gradient(
+    80deg,
+    rgb(10, 9, 82) 20%,
+    rgb(69, 62, 201) 71%,
+    rgba(0, 82, 206, 0.811) 77%
+  );
+  color: rgb(255, 255, 255);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-left {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-right {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.nav-right li {
+  margin-left: 20px;
+}
+
+.nav-right li a {
+  color: rgb(149, 241, 216);
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: background-color 0.3s;
+  border-radius: 4px;
+}
+
+.nav-right li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.content {
+  padding: 10px;
+  color: rgb(235, 238, 241);
+  margin-top: 30px; /* Height of the navbar */
+}
+.content h1 {
+  color: rgb(149, 241, 216);
+  font-size: 90px;
+  margin-left: 25%;
+  margin-right: 27%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.content p {
+  font-size: x-large;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.button-container {
+  display: flex; /* Enables Flexbox */
+  justify-content: center; /* Centers items horizontally within the container */
+  gap: 25px; /* Adds space between the buttons */
+}
+
+.button {
+  /* Styles to make the anchor tags look like buttons */
+  display: inline-block;
+  padding: 17px 24px;
+  background-color: #50f0c58f; /* Example background color */
+  color: rgb(0, 0, 0);
+  text-decoration: none; /* Removes the default underline from links */
+  border-radius: 15px; /* Rounds the corners */
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #5dd4bc; /* Darker color on hover */
+}
+.btn-create {
+  background-color: rgb(149, 241, 216);
+}
